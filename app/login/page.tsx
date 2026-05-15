@@ -90,7 +90,7 @@ export default function LoginPage() {
             />
             
             <div className="relative z-10 flex flex-col items-center text-center space-y-6">
-              <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center overflow-hidden p-2 shadow-lg">
+              <div className="w-24 h-24 bg-transparent flex items-center justify-center overflow-hidden p-2 shadow-lg">
                 <Image 
                   src={tenantData.logoUrl} 
                   alt="Logo" 
